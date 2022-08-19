@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Lato:wght@100&family=Noto+Sans+Arabic:wght@500&display=swap');
+
+
+
+body {
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+
+}
+
+  .backgroundclr {
+  
+    background: black;
+  
+    background-blend-mode: darken;
+  
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 0%;
+  
+  }
+
+
+    .nav-list {
+        width: 65%;
+        display: flex;
+        align-items: right;
+        margin-bottom: 0%;
+        font-weight: bolder;
+  }
+  
+  
+  .logo {
+  
+    display: flex;
+    margin-right:5px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: right;
+    width: 25px; 
+    height:50px;
+    margin-left: 30px;
+
+  
+  }
+  
+  
+  .logo img {
+    position: relative;
+   cursor: pointer;
+   width:60px;
+   align-items: right;
+   margin-right: 3px;
+  
+  }
+  
+  
+  
+  .nav-list li {
+    margin-left: auto;
+    align-items: center;
+    list-style: none;
+  
+    padding: 26px 30px;
+  
+  }
+  
+  
+  .nav-list li a {
+  
+    text-decoration: none;
+  
+    color: white;
+  
+  }
+  
+  
+  .nav-list li a:hover {
+  
+    color: grey;
+  
+  }
+.backgroundbody{
+  margin-top: 0%;
+  margin-bottom:0%;
+background-image:url(flowerbg.jpg);
+
+}
+p{
+  font-family:'Noto Sans Arabic', sans-serif; 
+  font-size: 25px;
+  color: black;
+  margin-left: 190px;
+  
+}
+
+.background-footer{
+
+         background-color: black;
+        margin-top: 0%;
+        height: 60px;
+      
+
+
+}
+
+.text-footer{
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  
+}
+@media screen and (max-width: 600px)
+{
+  body{
+  font-size: 12px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  }
+
+
+}
+
+
+
+
+
+
