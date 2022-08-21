@@ -27,7 +27,7 @@ body {
 
 
     .nav-list {
-        width: 65%;
+        width: 100/%;
         display: flex;
         align-items: right;
         margin-bottom: 0%;
@@ -53,7 +53,8 @@ body {
   .logo img {
     position: relative;
    cursor: pointer;
-   width:60px;
+   width:35px;
+   height:35;
    align-items: right;
    margin-right: 3px;
   
@@ -104,28 +105,21 @@ p{
          background-color: black;
         margin-top: 0%;
         height: 60px;
+        
+          text-align: center;
       
 
 
 }
 
 .text-footer{
-  margin-top: 0px;
+  margin-top: 25px;
   text-align: center;
   color: white;
   font-size: 13px;
   
 }
-@media screen and (max-width: 550px)
-{
-  body{
-  max-width:100%;
-  float:left;
 
-  }
-
-
-}
 
 
 
